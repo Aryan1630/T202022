@@ -10,6 +10,7 @@ from dash.dependencies import Input, Output
 from dash import html
 from pages import matches, players
 
+server = app.server
 
 SIDEBAR_STYLE = {
     "position": "fixed",
